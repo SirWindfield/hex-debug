@@ -1,0 +1,10 @@
+{
+  "transform": {
+    ".*": "<rootDir>/node_modules/babel-jest"
+  },
+  "modulePaths": [
+    "src"
+  ],
+  "testPathIgnorePatterns" : ["<rootDir>/node_modules/", "<rootDir>/lib/" ],
+  "verbose": true
+}

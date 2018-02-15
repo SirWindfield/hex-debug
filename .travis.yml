@@ -1,0 +1,21 @@
+sudo: false
+
+language: node_js
+
+# for now, just test on node 7
+node_js:
+  - 7
+  - 6
+
+# cache yarn cache, npm cache and node_modules to make life easier. We do not want to download them each time
+cache:
+  directories:
+    - node_modules
+    - $HOME/.npm
+  yarn: true
+
+install:
+  - yarn install
+
+script:
+  - yarn ci:all

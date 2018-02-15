@@ -1,0 +1,70 @@
+{
+  "name": "hex-debug",
+  "version": "0.0.1",
+  "description": "A small debug library to print a buffer's content as a hex table",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -d lib src",
+    "ci:all": "npm-run-all -s ci:lint ci:test",
+    "ci:lint": "npm run lint",
+    "ci:test": "npm run test -- --runInBand",
+    "clear": "rimraf lib",
+    "lint": "eslint src/",
+    "release": "standard-version -s && npm run sign",
+    "sign": "pkgsign sign .",
+    "sign-commit": "git add signature.json && git commit -m \"chore(signature): Updated signature.json file\"",
+    "prepublish": "in-publish && git push --follow-tags origin master || not-in-publish",
+    "test": "jest -c jest.json"
+  },
+  "standard-version": {
+    "scripts": {
+      "pretag": "npm run sign-commit"
+    }
+  },
+  "files": [
+    "lib",
+    "signature.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirWindfield/hex-debug.git"
+  },
+  "keywords": [
+    "hex",
+    "table",
+    "debug"
+  ],
+  "author": "Sven Lechner",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SirWindfield/hex-debug/issues"
+  },
+  "homepage": "https://github.com/SirWindfield/hex-debug#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "in-publish": "^2.0.0",
+    "jest": "^22.3.0",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "standard-version": "^4.3.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# ignore files
+.editorconfig
+
+# configs
+jest.json
+.eslintrc.json
+
+# directories
+node_modules/
+src/

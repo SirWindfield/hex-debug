@@ -10,7 +10,7 @@
     "ci:test": "npm run test -- --runInBand",
     "clear": "rimraf lib",
     "lint": "eslint src/",
-    "release": "standard-version -s && npm run sign",
+    "release": "standard-version -s",
     "sign": "pkgsign sign .",
     "sign-commit": "git add signature.json && git commit -m \"chore(signature): Updated signature.json file\"",
     "prepublish": "in-publish && git push --follow-tags origin master || not-in-publish",
@@ -18,7 +18,7 @@
   },
   "standard-version": {
     "scripts": {
-      "pretag": "npm run sign-commit"
+      "pretag": "npm run sign && npm run sign-commit"
     }
   },
   "files": [

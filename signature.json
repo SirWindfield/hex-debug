@@ -1,0 +1,33 @@
+{
+  "version": "v1alpha",
+  "files": [
+    {
+      "path": "package.json",
+      "sha512": "de207cb5d34537d464b7bff4c8fe83160392f683a23795699ed25a596099b2736ed210ca2a06fa3f8c2c97a20e8413b4a6ae90cdf846f4ba97ee6c581837f613"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha512": "c0c9ca14f2e35f922d8b099ec21bc4b90dbe98a54dff0ca0a5fcda8ea5973bd03f63c367efb1466c87d21f67df63fe1f73b931ace594f3d49f9999b7973c5d01"
+    },
+    {
+      "path": "README.md",
+      "sha512": "0caaced65dee6307256b1b40efeb187a84f7bf67dc54d56fe0c231c367dc544262a4984c13c02ec6037d99744f1192a6ff01fb92374b521f20e3a14a5422cb3c"
+    },
+    {
+      "path": "lib/__tests__/hex.spec.js",
+      "sha512": "c38b66da0898a773fb60e885b038fb6793c3f67674cacd1969c0968dcb7644b7e87fae370d208461c90f048ae01298dd7005353f14d0981c1f39c3c7f2b74a47"
+    },
+    {
+      "path": "lib/hex.js",
+      "sha512": "de2bc46ffa0c38b12a0c5c1c1c6e47f72c9c6f8edab0cadb4e35009bc3fc18394c6ba8d794e711544e26abde3952b28db91c916f9f5c44d9dff47e23d1d59630"
+    },
+    {
+      "path": "lib/index.js",
+      "sha512": "7cc7332a29f06698d4db98bcd7844d547a2b85c9be613ead528bdf71800be3b869fede190f38e5c6992ed087f58e42278c80caf43121154c91ff538ee50d5232"
+    }
+  ],
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJahaQXCRDsIjb14KIK9QAA478QACPy1Aav4vaGywgHZkSpyg7l\nZmqIXo5bobOA/WJvtC6Xkk/kF1xDmgPReCNrvEwgzjMgj5XAIsx/UqFerJqhwcIU\n18cUOW5FyIWxdPNi6MND9qSMCky/7dzetsBjWl0RU0IzYmK06bFdPkOLdcV0kPc9\nlSL86WpFyU9YsIOTCOkeAuU6qNeWPI6vyQCIlzOpN3RflIiMzhJs/Q5bmtsYipYb\ntkKoTy7IgQgQxk2EfPJE3g95mYwCFvrlZdCje171J9qpU4t0ZovhrCiCHjQ5SgPl\npPqAapl2Bf0ISo8zUWqhhXsLydmBu4qM4/2jsBOIrHX+DR/Nv5d3PlB7OlHI3mvq\neZRPNzYCCXIiDwyc32c/S171KEkkS9q2Kufruf/YjnaLwNfYpISaj8WrBPCVpM9d\nqom5/dI1Jk81qZ7FSvorfNwo9mGOU035K3V00geLxPyeitvlzFuEsTncd/tKi4u3\nrytz26t4WkCjOuIyvfZDWdJFYqJ3figZb2XU49DluM+WF29K6I2+JC/BpoBg0hjg\nw7piFSGkH1O0LkuMhryBzQ7y/pMS/VzlUsfJe8lTmAGvj63e5bLKfNlXSwTHrKQK\nux3g74kjvgPaII86j1h60ACbtuQ6VFx9AfG2eUG2EKeAyE6+qJsrHMh3HSdpnlcq\n6yhJiK35BFyJZAYJjfj7\n=d6XN\n-----END PGP SIGNATURE-----\n",
+  "identity": {
+    "keybaseUser": "sirwindfield"
+  }
+}

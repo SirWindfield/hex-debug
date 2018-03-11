@@ -3,11 +3,11 @@
   "files": [
     {
       "path": "package.json",
-      "sha512": "3055688d1d1363991fd68e5e045b3ea6820d75e68bd003006728f2cfcbe832fc1fb383b3d8378b79ccd148c89dba6a6dd77f56427596286c80e4c87fa81bc02b"
+      "sha512": "bfdd3e97fd5fd9a0c3d944940b10269dbb2b6d5550ecc1c4a08ddc67b4eb7dd4ae0fa6e6b2afdff2d665a92ed539782ffa5f9523f8f150ada0bb3dfbbea80e23"
     },
     {
       "path": "CHANGELOG.md",
-      "sha512": "2033e4ffd937bacc2b12edee19ba3359d2edd08832e981eb917256050c056f1bdd4c54bd8401b1afb71ca4498fe73939d1e524603156719ef391bb75eea03263"
+      "sha512": "1269325fe7607c00a74e158c5425b0c521daa2704fbbdeb84875e6cf1aa725c03a06494a91467ab1ff71effcaf794731f7c83a855fed97426968d642496b5239"
     },
     {
       "path": "README.md",
@@ -15,18 +15,18 @@
     },
     {
       "path": "lib/__tests__/hex.spec.js",
-      "sha512": "c38b66da0898a773fb60e885b038fb6793c3f67674cacd1969c0968dcb7644b7e87fae370d208461c90f048ae01298dd7005353f14d0981c1f39c3c7f2b74a47"
+      "sha512": "1eb97b5fe1a756bb10fd60c0e0ebaebf6df03a22eef355f2adf738b9951951dbb76d0d88e64fe7e91e363c890289c0458603a04526ef38094225552187d1430d"
     },
     {
       "path": "lib/hex.js",
-      "sha512": "d7ffd867ac65af9d56a690a3c76d31fd58de628ed854a7847c019cd014c986fcdd4f7eb0d0e4393d513b4528731f6da8b4a7cfa23a1d9add2c6e450e4dad8d2c"
+      "sha512": "6122b7a312f4b583543b7c50b8cf5853f46fb027132787bd7fee3763ab69c41f3c0656a5e2d5258686254955571e53f4ddd7c0673581be15d59a5ad9be4375e2"
     },
     {
       "path": "lib/index.js",
       "sha512": "7cc7332a29f06698d4db98bcd7844d547a2b85c9be613ead528bdf71800be3b869fede190f38e5c6992ed087f58e42278c80caf43121154c91ff538ee50d5232"
     }
   ],
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJapbZbCRDsIjb14KIK9QAAbv8QAJ1vKAoaX94KSFzOj+u7J4HS\nFyDi8otAvtIGYvRMiHkK0BsZ6wEL4eqBfuN+5IC/7V6XI1PgaBfyJycv6R7cGL3d\nL7zjmAVNXg2W6Y4yXgOPd/ECdtMStMkG+Rkd53ryS/8uKrCrUm3BNJKDmCyxsbih\nD9XmLSMC7jdVsKi2SIugK04gfhEtICNFk44kLxxbaJeUFpkHrA8i5hPOnJfzZfOL\nuUftC41n29UfFHQdsgqZiK7SUwf92ANJsXI5FCkDns34ut6ja0w51FAaxi3K3hBp\nfuFi1bnQP6yegE8TJ1EnXPBgABTfOy9s12o/jaan0F6q068nzOkfDvEwbdMa/z7C\nCUZVqReO43n/09eW/ZaFTpuDeCuNXNXRYad/YkZbAmFeI6u0K9kcjbpsBHVBeZiq\n9Kjc/omk8bbmKBlhvoWv+NlYgMpDDQDiRWBwzpYlr8yXElKb59gRfr5w2Bm8G0Uq\ny8L6snuLYr672HQV6uN8jthUg4FGVowi9vwgghJCqDjD5V/hElEiXqvpedOqJBBP\nacuYteRyXjqICQgd63mMvj4nc0Ci7GGjc86mJ6z72+vcTwukAdZYV1aNll6EGU5q\nbSW1EoW48KbY4DWbY+vZKnPNdC4sp+nFY9NPlEKr54vwX7MbhY3TSWf85DPsOl2D\noMcivFmLbbSeQOoM3cPO\n=Qv3o\n-----END PGP SIGNATURE-----\n",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJapcHTCRDsIjb14KIK9QAAc6EQAKVb9LQElpdIp9Q6a9jx99TJ\nXLVBfGHuw/3NXXfKkVyawc4UgVNML6cYj28JFFRvATHnOiGlvg8ZcnyqkgnYoLnP\ntqA4ZbBjDkv25wEGkdfgrXyQ49RWxuJD90GEACVSdgu5wTZyC1H/wFEKVtRuTksi\nVpqxpEuvfNpo7RjHcaAxcBwVkht20ta6mptFDGXthBCaZcyYy91zSyg6KAmbjT7u\nuSUIMirDW6D31fxwpx9k+yjE7FBKLoRZqcnEYOOyuKOLRSisYP/7aRu07bUFTvFL\nlxZQZX/mcoduLLoy9BPwSFmQYwiRwI4i8GKdoc5pAmpUYojjqbp9HESgLJwhdPOb\nhBpxiNeVH6PtI5jaL/R/vGDrsdz+DGTeeBkGcJ8x/yfoysbi+r5kCbQw+gbgYKtU\n6+iob8t3DXGGTqFsnbQCyS/K/dU2RE/iA3sMOVu6775gG2HliqUGmeuf6n2Ma1mv\nWbvouGtF8OLrG2oEz4is98c5uJn20prrBhTZdiIFxF6AW/ShUbX6ojEuJQaB/r4t\n9zNqbhQ0HMb8wM9xo8lBx1h8ed4BzJBn0hQQbwZ3KLgFOYK/HbPhX4dX0TEi99Jv\n/hdbe45YxoXidGaXsFrdp8QU6YP6zVpx5LgnYV15bV/8UJ99jgdPZ2/qA3IXJGYZ\nzgJvKuWjb+3LFKSjsYfC\n=qFWM\n-----END PGP SIGNATURE-----\n",
   "identity": {
     "keybaseUser": "sirwindfield"
   }

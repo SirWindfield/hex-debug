@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel -d lib src",
     "ci:all": "npm-run-all -s ci:lint ci:test",
+    "ci:coverage": "codecov",
     "ci:lint": "npm run lint",
     "ci:test": "npm run test -- --runInBand",
     "clear": "rimraf lib",
@@ -25,6 +26,7 @@
     "lib",
     "signature.json"
   ],
+  "bin": "./bin/hex",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SirWindfield/hex-debug.git"
@@ -46,6 +48,7 @@
     "babel-eslint": "^8.2.1",
     "babel-jest": "^22.2.2",
     "babel-preset-es2015": "^6.24.1",
+    "codecov": "^3.0.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.17.0",
@@ -55,13 +58,13 @@
     "eslint-plugin-react": "^7.6.1",
     "in-publish": "^2.0.0",
     "jest": "^22.3.0",
+    "minimist": "^1.2.0",
     "npm-run-all": "^4.0.2",
     "rimraf": "^2.6.1",
     "standard-version": "^4.3.0"
   },
   "dependencies": {
-    "chalk": "^2.3.1",
-    "global": "^4.3.2"
+    "chalk": "^2.3.1"
   },
   "config": {
     "commitizen": {

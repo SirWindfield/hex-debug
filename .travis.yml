@@ -24,3 +24,6 @@ install:
 
 script:
   - yarn ci:all
+
+after_success:
+  - yarn ci:coverage

@@ -60,7 +60,8 @@
     "standard-version": "^4.3.0"
   },
   "dependencies": {
-    "chalk": "^2.3.1"
+    "chalk": "^2.3.1",
+    "global": "^4.3.2"
   },
   "config": {
     "commitizen": {

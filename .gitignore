@@ -3,3 +3,6 @@ coverage
 lib
 node_modules
 .vscode
+
+# files
+yarn-error.log

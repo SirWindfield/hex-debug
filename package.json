@@ -1,6 +1,6 @@
 {
   "name": "hex-debug",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A small debug library to print a buffer's content as a hex table",
   "main": "lib/index.js",
   "scripts": {

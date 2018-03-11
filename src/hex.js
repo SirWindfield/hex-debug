@@ -19,11 +19,27 @@ function calculateOffsetLength(buffer) {
   return offset < 6 ? 6 : offset;
 }
 
-export default function print(buffer, columns = 16, map = true, raw = false) {
+/**
+ * Maps each byte to a pre-defined char map. Only ASCII letters are displayed,
+ * everything else is rendered as a dot.
+ * @param {byte} value The buffer value that is currently getting processed.
+ */
+function getMapCharacter(value) {
+  return (value > 31 && value < 127) || value > 159 ? String.fromCharCode(value) : '.';
+}
+
+export default function print(buffer, options = {}) {
   // only proceed if their is actual data in the buffer
   if (buffer.length === 0) {
     return '';
   }
+
+  // quicker access later on.
+  const {
+    columns = 16,
+    map = true,
+    color = true,
+  } = options;
 
   // determine the number of lines needed for the buffer to be displayed
   const lines = Math.ceil(buffer.length / columns);
@@ -39,7 +55,7 @@ export default function print(buffer, columns = 16, map = true, raw = false) {
   for (let i = 0; i < lines; i += 1) {
     // create the offset to the left
     let offset;
-    if (!raw) {
+    if (color === true) {
       offset = `${chalk.dim(pad(pointer, offsetLength))}  `;
     } else {
       offset = `${pad(pointer, offsetLength)}  `;
@@ -56,9 +72,9 @@ export default function print(buffer, columns = 16, map = true, raw = false) {
       const value = buffer[pointer];
       content += `${pad(value, 2)} `;
 
-      // populate the rightside map
-      if (map) {
-        rightMap += (value > 31 && value < 127) || value > 159 ? String.fromCharCode(value) : '.';
+      // populate the right side map
+      if (map === true) {
+        rightMap += getMapCharacter(value);
       }
       // increase the pointer to the current byte
       pointer += 1;

@@ -1,4 +1,5 @@
 # directories
+coverage
 lib
 node_modules
 .vscode

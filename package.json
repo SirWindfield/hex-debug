@@ -25,6 +25,7 @@
     "lib",
     "signature.json"
   ],
+  "bin": "./bin/hex",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SirWindfield/hex-debug.git"
@@ -55,6 +56,7 @@
     "eslint-plugin-react": "^7.6.1",
     "in-publish": "^2.0.0",
     "jest": "^22.3.0",
+    "minimist": "^1.2.0",
     "npm-run-all": "^4.0.2",
     "rimraf": "^2.6.1",
     "standard-version": "^4.3.0"

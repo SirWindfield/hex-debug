@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+const fs = require('fs');
+const hex = require('../lib/hex').default;
+const minimist = require('minimist');
+
+const parsed = minimist(process.argv.slice(2));
+const content = fs.readFileSync(parsed._[0]);
+console.log(hex(content, parsed)); // eslint-disable-line

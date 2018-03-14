@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/SirWindfield/hex-debug/compare/v2.0.0...v2.0.1) (2018-03-14)
+
+
+### Bug Fixes
+
+* **bin:** Added bin folder to npm include files ([291a5cb](https://github.com/SirWindfield/hex-debug/commit/291a5cb))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/SirWindfield/hex-debug/compare/v1.0.1...v2.0.0) (2018-03-12)
 

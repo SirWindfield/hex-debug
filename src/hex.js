@@ -30,7 +30,7 @@ function getMapCharacter(value) {
 
 export default function print(buffer, options = {}) {
   // only proceed if their is actual data in the buffer
-  if (buffer.length === 0) {
+  if (!buffer || buffer.length === 0) {
     return '';
   }
 

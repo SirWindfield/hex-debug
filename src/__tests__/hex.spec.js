@@ -4,6 +4,14 @@ const content12 = Buffer.from('Thisissomebs');
 const content16 = Buffer.from('Thisissomerandom');
 
 describe('Options', () => {
+  it('returns an empty string if the buffer is null', () => {
+    expect(hex(undefined)).toEqual('');
+  });
+
+  it('returns an empty string if the buffer is empty', () => {
+    expect(hex(Buffer.from(''))).toEqual('');
+  });
+
   it('prints a table with default options', () => {
     const expected = '000000  54 68 69 73 69 73 73 6F 6D 65 72 61 6E 64 6F 6D  Thisissomerandom';
     const config = { color: false };

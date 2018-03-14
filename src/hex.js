@@ -35,11 +35,7 @@ export default function print(buffer, options = {}) {
   }
 
   // quicker access later on.
-  const {
-    columns = 16,
-    map = true,
-    color = true,
-  } = options;
+  const { columns = 16, map = true, color = true } = options;
 
   // determine the number of lines needed for the buffer to be displayed
   const lines = Math.ceil(buffer.length / columns);
@@ -62,7 +58,7 @@ export default function print(buffer, options = {}) {
     }
     // calculate the remaining bytes for the current line
     // if we aren't in the last line, the number of bytes will always be ${columns}
-    const lastLine = (i === lines - 1);
+    const lastLine = i === lines - 1;
     bytesAvailable = lastLine ? lastIndex : columns;
 
     // create the content in the middle
@@ -92,7 +88,7 @@ export default function print(buffer, options = {}) {
       body += ` ${rightMap}`;
     }
     // only append new line if it is not the last element
-    if ((i + 1) !== lines) {
+    if (i + 1 !== lines) {
       body += '\n';
     }
   }

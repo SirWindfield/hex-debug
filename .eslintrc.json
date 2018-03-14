@@ -10,14 +10,17 @@
     "node": true
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "prettier"
   ],
   "plugins": [
     "import",
     "react",
-    "jsx-a11y"
+    "jsx-a11y",
+    "prettier"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "import/no-extraneous-dependencies": "off"
   }
 }

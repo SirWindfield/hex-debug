@@ -1,5 +1,5 @@
-import hex from '../hex';
 import chalk from 'chalk';
+import hex from '../hex';
 
 const content12 = Buffer.from('Thisissomebs');
 const content16 = Buffer.from('Thisissomerandom');

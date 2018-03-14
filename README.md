@@ -29,7 +29,7 @@ $ npm install -g hex-debug
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [codecov-badge]: https://codecov.io/gh/SirWindfield/hex-debug/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/SirWindfield/hex-debug
-[pkgsign-badge]: https://img.shields.io/badge/pkgsign-signed%20by%20%40sirwindfield-brightgreen.svg
+[pkgsign-badge]: https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=hex-debug&expectedIdentity=%40sirwindfield
 [pkgsign-url]: https://github.com/RedpointGames/pkgsign
 [example-url]: https://user-images.githubusercontent.com/5113257/37377067-1f98b388-2728-11e8-8d18-50856998016b.png
 [output-url]: https://user-images.githubusercontent.com/5113257/37282244-09aad784-25f4-11e8-9654-0d00f61a71d9.png

@@ -1,4 +1,5 @@
 import hex from '../hex';
+import chalk from 'chalk';
 
 const content12 = Buffer.from('Thisissomebs');
 const content16 = Buffer.from('Thisissomerandom');
@@ -29,6 +30,13 @@ describe('Options', () => {
   it('returns a table without the map', () => {
     const expected = '000000  54 68 69 73 69 73 73 6F 6D 65 72 61 6E 64 6F 6D ';
     const config = { map: false, color: false };
+    const received = hex(content16, config);
+    expect(received).toEqual(expected);
+  });
+
+  it('returns a table with colored output', () => {
+    const expected = `${chalk.dim('000000')}  54 68 69 73 69 73 73 6F 6D 65 72 61 6E 64 6F 6D `;
+    const config = { color: true, map: false };
     const received = hex(content16, config);
     expect(received).toEqual(expected);
   });
